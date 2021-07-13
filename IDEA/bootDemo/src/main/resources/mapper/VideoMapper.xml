@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!--namespace对应的接口全路径-->
+<mapper namespace="com.zlt.boot.dao.VideoDao">
+
+    <select id="findByRid" resultType="com.zlt.boot.domain.Video">
+        select * from video where id=#{id}
+    </select>
+
+    <!--把一个resource对象变成表格中的一行
+        该对象的属性值就是行的列
+        ？对象的属性值就是要插入到数据库的数据
+        #{属性名}-->
+    <insert id="insert" parameterType="com.zlt.boot.domain.Video">
+        insert into video(videoName,uploadDate,studyNum,resourceId) values(#{videoName},#{uploadDate},#{studyNum},#{resourceId})
+    </insert>
+
+    <update id="update" parameterType="com.zlt.boot.domain.Video">
+        update video set videoName=#{videoName},uploadDate=#{uploadDate},studyNum=#{studyNum},resourceId=#{resourceId} where id=#{id}
+    </update>
+
+    <delete id="delete" parameterType="java.lang.Integer">
+        delete from video where id = #{id}
+    </delete>
+
+</mapper>

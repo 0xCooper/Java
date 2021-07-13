@@ -1,5 +1,7 @@
 package com.zlt.boot.controller;
 
+import com.fasterxml.jackson.annotation.JacksonAnnotation;
+import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.zlt.boot.dao.ResourceDao;
 import com.zlt.boot.domain.Resource;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,10 +18,13 @@ public class ResourceController {
 
     //根据资源id获取该资源对应的视频数据
     @GetMapping("getAllResource")
-    public String getAllResource(){
+    public List<Resource> getAllResource(){
+
         List<Resource> list = resourceDao.findAll();
         System.out.println(list);
-        return "获取资源成功";
+        return list;
+
+//        return list;
     }
 
     //视频的增加

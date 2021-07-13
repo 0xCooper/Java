@@ -21,7 +21,7 @@
         ？对象的属性值就是要插入到数据库的数据
         #{属性名}-->
     <insert id="insert" parameterType="com.zlt.boot.domain.Resource">
-        insert into(resourceName,resourceImg,studyNum,price) values(#{resourceName},#{resourceImg},#{studyNum},#{price})
+        insert into resource(resourceName,resourceImg,studyNum,price) values(#{resourceName},#{resourceImg},#{studyNum},#{price})
     </insert>
 
     <update id="update" parameterType="com.zlt.boot.domain.Resource">

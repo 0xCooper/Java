@@ -4,14 +4,14 @@ public class Video {
     private  int id;
     private String videoName;
     private String uploadDate;
-    private int studyNmu;
+    private int studyNum;
     private int resourceId;
 
-    public Video(int id, String videoName, String uploadDate, int studyNmu, int resourceId) {
+    public Video(int id, String videoName, String uploadDate, int studyNum, int resourceId) {
         this.id = id;
         this.videoName = videoName;
         this.uploadDate = uploadDate;
-        this.studyNmu = studyNmu;
+        this.studyNum = studyNum;
         this.resourceId = resourceId;
     }
 
@@ -42,12 +42,12 @@ public class Video {
         this.uploadDate = uploadDate;
     }
 
-    public int getStudyNmu() {
-        return studyNmu;
+    public int getStudyNum() {
+        return studyNum;
     }
 
-    public void setStudyNmu(int studyNmu) {
-        this.studyNmu = studyNmu;
+    public void setStudyNum(int studyNum) {
+        this.studyNum = studyNum;
     }
 
     public int getResourceId() {
