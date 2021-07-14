@@ -5,16 +5,20 @@ import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.zlt.boot.dao.ResourceDao;
 import com.zlt.boot.domain.Resource;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
 @RestController
+@CrossOrigin
 public class ResourceController {
 
     @Autowired
     ResourceDao resourceDao;
+
+
 
     //根据资源id获取该资源对应的视频数据
     @GetMapping("getAllResource")

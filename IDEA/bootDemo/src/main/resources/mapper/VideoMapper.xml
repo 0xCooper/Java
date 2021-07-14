@@ -8,6 +8,9 @@
         select * from video where id=#{id}
     </select>
 
+    <select id="findByName" resultType="com.zlt.boot.domain.Video">
+        select * from video where videoName=#{name}
+    </select>
     <!--把一个resource对象变成表格中的一行
         该对象的属性值就是行的列
         ？对象的属性值就是要插入到数据库的数据
@@ -23,5 +26,7 @@
     <delete id="delete" parameterType="java.lang.Integer">
         delete from video where id = #{id}
     </delete>
+
+
 
 </mapper>

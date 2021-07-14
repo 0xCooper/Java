@@ -6,12 +6,14 @@ import com.zlt.boot.dao.VideoDao;
 import com.zlt.boot.domain.Resource;
 import com.zlt.boot.domain.Video;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
 @RestController
+@CrossOrigin
 public class VideoController {
 
     @Autowired
@@ -44,7 +46,12 @@ public class VideoController {
         return "删除视频";
 
     }
-
+    @GetMapping("getVideoByName")
+    public List<Video> getVideoByName(String name){
+        System.out.println("参数"+name);
+        List<Video> list=videoDao.findByName(name);
+        return list;
+    }
 
 
 }
