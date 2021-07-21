@@ -1,0 +1,7 @@
+{
+  "timestamp": "2021-07-16T03:10:31.384+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "No message available",
+  "path": "/user/login"
+}

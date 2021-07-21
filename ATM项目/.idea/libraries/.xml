@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="可执行程序">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/可执行程序/login.jar!/" />
+      <root url="jar://$PROJECT_DIR$/可执行程序/ATM1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

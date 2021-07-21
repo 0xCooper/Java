@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zlt.dao.TeacherDao">
+
+<resultMap type="com.zlt.entity.Teacher" id="teacher">
+<id column="tid" property="tid"/>
+<result column="tname" property="tname"/>
+</resultMap>
+
+<select id="showAllTeacher" resultMap="teacher">
+	SELECT tid,tname FROM teacher
+</select>
+<select id="getTeacherById" parameterType="int" resultMap="teacherandstudents">
+	SELECT * FROM teacher t INNER JOIN student s ON s.`t_id`=t.`tid` where t.tid =#{tid}
+</select>
+
+<resultMap id="teacherandstudents" type="com.zlt.entity.Teacher">
+	<id column="tid" property="tid"/>
+	<result column="tname" property="tname"/>
+	<collection property="students" column="t_id" ofType="com.zlt.entity.Student">
+		<id column="sid" property="sid"></id>
+		<result column="sname" property="sname"></result>
+	</collection>
+</resultMap>
+
+</mapper>

@@ -1,0 +1,7 @@
+{
+  "timestamp": "2021-07-14T10:01:26.309+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "nested exception is org.apache.ibatis.binding.BindingException: Parameter 'videoname' not found. Available parameters are [name, param1]",
+  "path": "/getVideoByName"
+}

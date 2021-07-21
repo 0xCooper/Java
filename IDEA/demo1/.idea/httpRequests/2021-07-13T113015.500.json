@@ -1,0 +1,7 @@
+{
+  "timestamp": "2021-07-13T03:30:15.919+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Invalid bound statement (not found): com.zlt.boot.dao.ResourceDao.findAll",
+  "path": "/getAllResource"
+}

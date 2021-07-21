@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zlt.dao.GetCourseDao">
+	<select id="getCourseMoreByCourseId" resultType="com.zlt.entity.Course">
+		SELECT course_id,type,course_name AS course_name,course_teacher_name AS course_teacher_name,course_categoryname AS course_categoryname,course_pic AS course_pic,course_introduce AS course_introduce FROM t_cc_course WHERE course_id = #{course_id};
+	</select>
+
+	<select id="getChapterByCourseId" resultType="com.zlt.entity.Chapter">
+		SELECT course_id,chapter_id,parent_id,previous_id,resourcepath,linkurl,chaptername FROM t_cc_chapter WHERE course_id = #{course_id};
+	</select>
+
+	<select id="getVideoByChapterId">
+		SELECT linkurl FROM t_cc_chapter WHERE chapter_id = #{chapter_id};
+	</select>
+</mapper>
+

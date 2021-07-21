@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zlt.dao.StudentDao">
+<select id="showAllStudent" resultType="com.zlt.entity.Student">
+	SELECT sid,sname FROM student
+</select>
+<update id="updateStudent" parameterType="com.zlt.entity.Student">
+	UPDATE student SET sname=#{sname} WHERE sid=#{sid}
+</update>
+<!--
+<select id="dltStudent" resultType="com.zlt.entity.Student">
+	DELETE FROM student WHERE sid=#{sid}
+</select>
+<select id="addStudent" resultType="com.zlt.entity.Student">
+	INSERT student(sid,sname) VALUES(#{sid},#{sname})
+</select> -->
+<delete id="dltStudent">
+DELETE FROM student WHERE sid=#{sid}
+</delete>
+<insert id="addStudent" useGeneratedKeys="true" keyProperty="sid" keyColumn="sid">
+INSERT INTO student(sname) VALUES(#{sname})
+</insert>
+
+<select id="getTeacherBySname" resultMap="studentandteacher">
+	SELECT * FROM student s INNER JOIN teacher t ON t.`tid`=s.`t_id` WHERE s.`sname`=#{sname}
+</select>
+<resultMap type="com.zlt.entity.Student" id="studentandteacher">
+	<id column="sid" property="sid"></id>
+	<result column="sname" property="sname"></result>
+	<association property="teacher" javaType="com.zlt.entity.Teacher" column="t_id">
+		<id column="tid" property="tid"/>
+		<result column="tname" property="tname"/>
+	</association>
+</resultMap>
+
+</mapper>

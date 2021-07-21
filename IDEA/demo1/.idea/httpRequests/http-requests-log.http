@@ -1,0 +1,122 @@
+GET http://127.0.0.1:9999/user/login
+
+<> 2021-07-16T111031.500.json
+
+###
+
+GET http://localhost:8088/getVideoByName?name=网络攻防
+
+<> 2021-07-14T180356.200.json
+
+###
+
+GET http://localhost:8088/getVideoByName?name=网络攻防
+
+<> 2021-07-14T180227.500.json
+
+###
+
+GET http://localhost:8088/getVideoByName?name=网络攻防
+
+<> 2021-07-14T180151.500.json
+
+###
+
+GET http://localhost:8088/getVideoByName?name=渗透测试
+
+<> 2021-07-14T180126.500.json
+
+###
+
+POST http://localhost:8088/postrequestinfo
+
+<> 2021-07-14T164652.200.txt
+
+###
+
+POST http://localhost:8088/postrequestinfo
+
+<> 2021-07-14T162849.200.txt
+
+###
+
+GET http://localhost:8088/getrequestinfo
+
+<> 2021-07-14T162428.200.txt
+
+###
+
+GET http://localhost:8088/getAllResource
+
+<> 2021-07-13T121629.200.txt
+
+###
+
+GET http://localhost:8088/getAllResource
+
+###
+
+GET http://localhost:8088/getAllResource
+
+<> 2021-07-13T115445.500.json
+
+###
+
+GET http://localhost:8088/getAllResource
+
+<> 2021-07-13T115108.500.json
+
+###
+
+GET http://localhost:8088/test
+
+<> 2021-07-13T115054.200.txt
+
+###
+
+GET http://localhost:8088/test
+
+<> 2021-07-13T114245.404.json
+
+###
+
+GET http://127.0.0.1:8080/login
+
+###
+
+GET http://localhost:8088/getAllResource
+
+<> 2021-07-13T113653.500.json
+
+###
+
+GET http://localhost:8088/getAllResource
+
+<> 2021-07-13T113015.500.json
+
+###
+
+GET http://localhost:8088/getAllResource
+
+<> 2021-07-13T112235.500.json
+
+###
+
+GET http://localhost:8088/getAllResource
+
+<> 2021-07-13T112225.500.json
+
+###
+
+GET http://localhost:8088/getAllResource
+
+<> 2021-07-13T111734.500.json
+
+###
+
+GET http://localhost:8088/getAllResource
+
+<> 2021-07-13T111632.500.json
+
+###
+

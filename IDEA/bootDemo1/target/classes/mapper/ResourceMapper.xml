@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!--namespace对应的接口全路径-->
+<mapper namespace="com.zlt.boot.dao.ResourceDao">
+
+    <!--id对应的是接口中的方法名-->
+    <!--
+        parameterType：该方法的输入参数类型
+        resultType：该方法的返回值类型
+    -->
+    <!--
+        ？
+    -->
+    <select id="findAll" resultType="com.zlt.boot.domain.Resource">
+        select * from resource
+    </select>
+
+    <!--把一个resource对象变成表格中的一行
+        该对象的属性值就是行的列
+        ？对象的属性值就是要插入到数据库的数据
+        #{属性名}-->
+    <insert id="insert" parameterType="com.zlt.boot.domain.Resource">
+        insert into resource(resourceName,resourceImg,studyNum,price) values(#{resourceName},#{resourceImg},#{studyNum},#{price})
+    </insert>
+
+    <update id="update" parameterType="com.zlt.boot.domain.Resource">
+        update resource set resourceName=#{resourceName},resourceImg=#{resourceImg},studyNum=#{studyNum},price=#{price} where id=#{id}
+    </update>
+
+    <delete id="delete" parameterType="java.lang.Integer">
+        delete from resource where id = #{id}
+    </delete>
+
+</mapper>

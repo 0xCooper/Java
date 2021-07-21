@@ -1,0 +1,7 @@
+{
+  "timestamp": "2021-07-13T03:54:45.078+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "No message available",
+  "path": "/getAllResource"
+}
