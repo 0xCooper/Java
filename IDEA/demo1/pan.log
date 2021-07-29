@@ -1,0 +1,1468 @@
+2021-07-23 09:18:57.020 INFO 10922 [main] [com.whut.pan.PanApplication 50] Starting PanApplication on makapaka-PC with PID 10922 (/home/makapaka/Desktop/CJPan-master/CJPan-master/target/classes started by makapaka in /media/makapaka/WorkStation/VsWorkstation/Java/IDEA/demo1)
+2021-07-23 09:18:57.023 INFO 10922 [main] [com.whut.pan.PanApplication 650] The following profiles are active: linux
+2021-07-23 09:18:57.663 INFO 10922 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate 126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-07-23 09:18:57.729 INFO 10922 [main] [org.springframework.data.repository.config.RepositoryConfigurationDelegate 182] Finished Spring Data repository scanning in 59ms. Found 3 repository interfaces.
+2021-07-23 09:18:58.049 INFO 10922 [main] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$da5874f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-23 09:18:58.152 WARN 10922 [main] [com.whut.pan.config.MultipartConfig$$EnhancerBySpringCGLIB$$8b4c9899 36] 临时文件的目录更改于2019-3-6：/media/makapaka/WorkStation/VsWorkstation/Java/IDEA/demo1/data/tmp
+2021-07-23 09:18:58.242 INFO 10922 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer 90] Tomcat initialized with port(s): 8080 (http)
+2021-07-23 09:18:58.260 INFO 10922 [main] [org.apache.catalina.core.StandardService 173] Starting service [Tomcat]
+2021-07-23 09:18:58.260 INFO 10922 [main] [org.apache.catalina.core.StandardEngine 173] Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-07-23 09:18:58.357 INFO 10922 [main] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173] Initializing Spring embedded WebApplicationContext
+2021-07-23 09:18:58.357 INFO 10922 [main] [org.springframework.web.context.ContextLoader 283] Root WebApplicationContext: initialization completed in 1302 ms
+2021-07-23 09:18:58.482 INFO 10922 [main] [com.zaxxer.hikari.HikariDataSource 110] HikariPool-1 - Starting...
+2021-07-23 09:18:58.576 INFO 10922 [main] [com.zaxxer.hikari.HikariDataSource 123] HikariPool-1 - Start completed.
+2021-07-23 09:18:58.616 INFO 10922 [main] [org.hibernate.jpa.internal.util.LogHelper 31] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-07-23 09:18:58.734 INFO 10922 [main] [org.hibernate.Version 46] HHH000412: Hibernate Core {5.3.10.Final}
+2021-07-23 09:18:58.735 INFO 10922 [main] [org.hibernate.cfg.Environment 213] HHH000206: hibernate.properties not found
+2021-07-23 09:18:58.830 INFO 10922 [main] [org.hibernate.annotations.common.Version 49] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-07-23 09:18:58.938 INFO 10922 [main] [org.hibernate.dialect.Dialect 157] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-07-23 09:18:59.453 INFO 10922 [main] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean 415] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-23 09:18:59.767 INFO 10922 [main] [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator 47] HHH000397: Using ASTQueryTranslatorFactory
+2021-07-23 09:19:00.098 INFO 10922 [main] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 171] Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-23 09:19:00.126 WARN 10922 [main] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration 225] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-23 09:19:00.175 WARN 10922 [main] [com.whut.pan.config.WebMvcConfiguration$$EnhancerBySpringCGLIB$$74ff4b7b 40] addResourceHandlers() fileRootPath:/root/pan/
+2021-07-23 09:19:00.203 WARN 10922 [main] [org.thymeleaf.templatemode.TemplateMode 150] [THYMELEAF][main] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-07-23 09:19:00.234 INFO 10922 [main] [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping 54] Adding welcome page: class path resource [static/index.html]
+2021-07-23 09:19:00.355 INFO 10922 [main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer 202] Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-23 09:19:00.357 INFO 10922 [main] [com.whut.pan.PanApplication 59] Started PanApplication in 3.678 seconds (JVM running for 4.189)
+2021-07-23 09:19:04.201 INFO 10922 [http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-23 09:19:04.201 INFO 10922 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet 524] Initializing Servlet 'dispatcherServlet'
+2021-07-23 09:19:04.209 INFO 10922 [http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet 546] Completed initialization in 8 ms
+2021-07-23 09:19:04.220 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:com.whut.pan.controller.PanRestV1Controller:list
+2021-07-23 09:19:04.229 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:04.257 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:04.258 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:04.272 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:04.272 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:04.286 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:04.287 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:04.301 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:04.301 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:04.317 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:04.317 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:04.331 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:04.331 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:04.349 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:04.350 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:04.365 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:04.365 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:04.381 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:04.382 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:04.398 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:04.398 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:04.419 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:04.420 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:04.430 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:04.431 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:04.444 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:04.444 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:04.463 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:04.464 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:04.486 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:04.486 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:04.499 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:04.500 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:04.517 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:04.517 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:04.532 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:04.533 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:04.550 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:04.550 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:04.565 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:04.565 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:11.142 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:com.whut.pan.controller.PanRestV1Controller:newDir
+2021-07-23 09:19:11.142 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:11.176 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:11.176 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:11.192 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:11.192 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:11.207 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:11.207 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:11.224 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:11.225 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:11.240 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:11.240 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:11.257 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:11.258 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:11.276 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:11.276 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:11.293 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:11.294 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:11.311 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:11.311 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:11.327 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:11.327 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:11.341 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:11.341 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:11.355 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:11.355 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:11.369 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:11.370 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:11.379 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:11.380 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:11.393 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:11.393 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:11.409 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:11.409 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:11.424 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:11.424 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:11.437 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:11.437 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:11.449 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:11.449 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:11.460 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:11.460 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:14.701 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:com.whut.pan.controller.PanRestV1Controller:getSpaceSize
+2021-07-23 09:19:14.701 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:14.703 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:com.whut.pan.controller.PanRestV1Controller:list
+2021-07-23 09:19:14.703 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:14.756 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:14.756 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:14.756 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:14.756 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:14.777 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:14.777 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:14.777 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:14.777 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:14.791 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:14.792 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:14.793 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:14.794 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:14.816 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:14.816 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:14.818 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:14.818 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:14.838 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:14.838 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:14.844 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:14.845 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:14.870 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:14.870 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:14.871 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:14.871 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:14.890 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:14.891 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:14.891 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:14.892 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:14.921 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:14.921 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:14.921 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:14.921 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:14.938 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:14.938 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:14.938 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:14.939 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:14.958 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:14.958 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:14.959 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:14.959 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:14.980 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:14.980 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:14.980 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:14.980 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:15.005 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:15.005 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:15.005 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:15.005 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:15.028 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:15.028 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:15.029 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:15.029 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:15.052 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:15.052 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:15.053 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:15.053 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:15.071 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:15.071 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:15.071 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:15.071 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:15.095 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:15.095 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:15.095 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:15.095 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:15.109 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:15.109 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:15.110 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:15.110 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:15.129 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:15.130 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:15.129 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:15.130 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:15.143 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:15.143 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:15.144 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:15.144 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:15.157 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:15.157 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:15.158 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:15.158 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:21.232 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:com.whut.pan.controller.PanRestV1Controller:newDir
+2021-07-23 09:19:21.233 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:21.260 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:21.260 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:21.279 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:21.279 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:21.287 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:21.287 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:21.296 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:21.296 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:21.311 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:21.311 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:21.330 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:21.330 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:21.346 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:21.347 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:21.362 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:21.363 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:21.376 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:21.377 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:21.386 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:21.387 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:21.397 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:21.397 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:21.411 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:21.411 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:21.427 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:21.428 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:21.444 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:21.444 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:21.454 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:21.454 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:21.467 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:21.467 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:21.481 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:21.482 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:21.494 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:21.494 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:21.501 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:21.501 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:21.516 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:19:21.516 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:19:42.322 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:errorHtml
+2021-07-23 09:19:42.322 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:15.282ERROR 10922 [http-nio-8080-exec-6] [org.thymeleaf.TemplateEngine 1136] [THYMELEAF][http-nio-8080-exec-6] Exception processing template " ### Error querying database.  Caus[...]tion is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist": Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_291]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_291]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-07-23 09:20:15.284ERROR 10922 [http-nio-8080-exec-6] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] 175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_291]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_291]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-07-23 09:20:15.286 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:15.286 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:18.101ERROR 10922 [http-nio-8080-exec-7] [org.thymeleaf.TemplateEngine 1136] [THYMELEAF][http-nio-8080-exec-7] Exception processing template " ### Error querying database.  Caus[...]tion is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist": Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_291]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_291]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-07-23 09:20:18.102ERROR 10922 [http-nio-8080-exec-7] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] 175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_291]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_291]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-07-23 09:20:18.103 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:18.103 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.307 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:com.whut.pan.controller.PanRestV1Controller:getSpaceSize
+2021-07-23 09:20:45.307 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:com.whut.pan.controller.PanRestV1Controller:list
+2021-07-23 09:20:45.307 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.307 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.377 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.377 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.377 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.377 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.398 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.399 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.398 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.400 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.431 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.431 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.432 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.432 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.458 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.458 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.458 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.458 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.482 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.483 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.482 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.483 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.500 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.500 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.500 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.501 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.528 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.528 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.528 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.528 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.548 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.549 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.552 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.552 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.565 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.565 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.565 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.566 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.581 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.581 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.582 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.582 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.612 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.612 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.613 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.613 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.642 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.643 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.643 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.643 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.659 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.659 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.660 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.660 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.682 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.683 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.682 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.684 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.697 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.697 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.698 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.698 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.714 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.714 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.714 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.714 WARN 10922 [http-nio-8080-exec-4] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.731 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.731 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.731 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.731 WARN 10922 [http-nio-8080-exec-2] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.749 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.749 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.758 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.759 WARN 10922 [http-nio-8080-exec-1] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.765 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.765 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.777 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.777 WARN 10922 [http-nio-8080-exec-6] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.779 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.779 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:20:45.808 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:20:45.808 WARN 10922 [http-nio-8080-exec-10] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:21:19.714ERROR 10922 [http-nio-8080-exec-5] [org.thymeleaf.TemplateEngine 1136] [THYMELEAF][http-nio-8080-exec-5] Exception processing template " ### Error querying database.  Caus[...]tion is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist": Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_291]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_291]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-07-23 09:21:19.715ERROR 10922 [http-nio-8080-exec-5] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] 175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_291]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_291]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-07-23 09:21:19.716 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:21:19.716 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:21:24.666ERROR 10922 [http-nio-8080-exec-9] [org.thymeleaf.TemplateEngine 1136] [THYMELEAF][http-nio-8080-exec-9] Exception processing template " ### Error querying database.  Caus[...]tion is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist": Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_291]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_291]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-07-23 09:21:24.668ERROR 10922 [http-nio-8080-exec-9] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] 175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_291]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_291]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-07-23 09:21:24.670 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:21:24.671 WARN 10922 [http-nio-8080-exec-9] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:21:26.007ERROR 10922 [http-nio-8080-exec-3] [org.thymeleaf.TemplateEngine 1136] [THYMELEAF][http-nio-8080-exec-3] Exception processing template " ### Error querying database.  Caus[...]tion is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist": Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_291]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_291]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-07-23 09:21:26.008ERROR 10922 [http-nio-8080-exec-3] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] 175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_291]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_291]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-07-23 09:21:26.009 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:21:26.009 WARN 10922 [http-nio-8080-exec-3] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:21:26.176ERROR 10922 [http-nio-8080-exec-8] [org.thymeleaf.TemplateEngine 1136] [THYMELEAF][http-nio-8080-exec-8] Exception processing template " ### Error querying database.  Caus[...]tion is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist": Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_291]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_291]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-07-23 09:21:26.177ERROR 10922 [http-nio-8080-exec-8] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] 175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_291]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_291]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-07-23 09:21:26.178 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:21:26.178 WARN 10922 [http-nio-8080-exec-8] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:21:26.346ERROR 10922 [http-nio-8080-exec-7] [org.thymeleaf.TemplateEngine 1136] [THYMELEAF][http-nio-8080-exec-7] Exception processing template " ### Error querying database.  Caus[...]tion is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist": Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_291]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_291]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-07-23 09:21:26.347ERROR 10922 [http-nio-8080-exec-7] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] 175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_291]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_291]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-07-23 09:21:26.347 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:21:26.347 WARN 10922 [http-nio-8080-exec-7] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:21:26.516ERROR 10922 [http-nio-8080-exec-5] [org.thymeleaf.TemplateEngine 1136] [THYMELEAF][http-nio-8080-exec-5] Exception processing template " ### Error querying database.  Caus[...]tion is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist": Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) [spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) [spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_291]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_291]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-07-23 09:21:26.518ERROR 10922 [http-nio-8080-exec-5] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] 175] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+### The error may exist in com/whut/pan/dao/UserMapper.java (best guess)
+### The error may involve com.whut.pan.dao.UserMapper.queryUserByUsername-Inline
+### The error occurred while setting parameters
+### SQL: select * from pan_user where username = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'zlt-sql.pan_user' doesn't exist], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_291]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_291]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.21.jar:9.0.21]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_291]
+
+2021-07-23 09:21:26.518 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 35] 用户ip:127.0.0.1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2021-07-23 09:21:26.519 WARN 10922 [http-nio-8080-exec-5] [com.whut.pan.config.WebInterceptor 38] 未登录
+2021-07-23 09:22:31.941 INFO 10922 [Thread-9] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 208] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-23 09:22:31.942 INFO 10922 [Thread-9] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean 597] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-23 09:22:31.944 INFO 10922 [Thread-9] [com.zaxxer.hikari.HikariDataSource 350] HikariPool-1 - Shutdown initiated...
+2021-07-23 09:22:31.947 INFO 10922 [Thread-9] [com.zaxxer.hikari.HikariDataSource 352] HikariPool-1 - Shutdown completed.

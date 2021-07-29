@@ -1,0 +1,48 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch startSpringBoot",
+            "request": "launch",
+            "mainClass": "com.zlt.boot.startSpringBoot",
+            "projectName": "bootDemo"
+        },
+        {
+            "type": "java",
+            "name": "Launch startSpringBoot(1)",
+            "request": "launch",
+            "mainClass": "com.zlt.com.startSpringBoot",
+            "projectName": "demo3"
+        },
+        {
+            "type": "java",
+            "name": "Launch QYApplication",
+            "request": "launch",
+            "mainClass": "com.zlt.QYApplication",
+            "projectName": "demo_a"
+        },
+        {
+            "type": "java",
+            "name": "Launch WindpanApplication",
+            "request": "launch",
+            "mainClass": "xyz.thewind.windpan.WindpanApplication",
+            "projectName": "windpan"
+        },
+        {
+            "type": "java",
+            "name": "Launch startSpringBoot(2)",
+            "request": "launch",
+            "mainClass": "com.zlt.boot.startSpringBoot"
+        }
+    ]
+}
